@@ -4,9 +4,9 @@
 A console-based banking application built in Java that lets users register, log in, open savings or checking accounts, and deposit or withdraw funds. All data (users, accounts, transaction history) is persisted to local text files so it survives between runs, with no database required.
 
 ## Student Details
-- **Name:** [Kachisi Tendero]
-- **Registration Number:** [H250637J]
-- Repository:[Secure Banking App_H250637j]
+- **Name:** Kachisi Tendero
+- **Registration Number:** H250637J
+- **Repository:**Secure Banking App_H250637j
 
 ## Features
 - User registration and login, with passwords stored as SHA-256 hashes (never in plain text)
