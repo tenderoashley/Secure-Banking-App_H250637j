@@ -4,8 +4,9 @@
 A console-based banking application built in Java that lets users register, log in, open savings or checking accounts, and deposit or withdraw funds. All data (users, accounts, transaction history) is persisted to local text files so it survives between runs, with no database required.
 
 ## Student Details
-- **Name:** [Your Name]
-- **Registration Number:** [Your Reg Number]
+- **Name:** [Kachisi Tendero]
+- **Registration Number:** [H250637J]
+- Repository:[Secure Banking App_H250637j]
 
 ## Features
 - User registration and login, with passwords stored as SHA-256 hashes (never in plain text)
@@ -25,14 +26,14 @@ A console-based banking application built in Java that lets users register, log 
 ```
 SecureBankApp/
 ├── src/
-│   ├── Main.java            # Console UI / entry point
-│   ├── Bank.java            # Core business logic controller
-│   ├── User.java            # User authentication model
-│   ├── BankAccount.java     # Abstract account base class
-│   ├── SavingsAccount.java  # Savings account rules
-│   ├── CheckingAccount.java # Checking account rules
-│   ├── Transaction.java     # Transaction record model
-│   └── FileHandler.java     # Text-file persistence layer
+│   ├── Main.java            
+│   ├── Bank.java            
+│   ├── User.java            
+│   ├── BankAccount.java     
+│   ├── SavingsAccount.java  
+│   ├── CheckingAccount.java 
+│   ├── Transaction.java     
+│   └── FileHandler.java
 └── README.md
 ```
 
@@ -52,3 +53,6 @@ SecureBankApp/
 ## Notes
 - No external libraries are required — only core Java (`java.io`, `java.security`, `java.time`, `java.util`).
 - This project was built to demonstrate OOP principles and secure coding practices for ISS 2101 Mini Project (2).
+- ## Author
+- **TENDERO KACHISI**
+- **H250637J**
